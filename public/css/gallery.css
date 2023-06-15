@@ -1,0 +1,254 @@
+body{
+  background-color: #537188;
+}
+.b1{
+  position: absolute;
+
+  top:50%;
+  left:47%
+}
+.heading{
+  z-index: 8;
+  position: absolute;
+  width:100%;
+  background-color: #27374D;
+  position: absolute;
+  top:2%;
+  left:0%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.card-title1{
+  color: white;
+  font-size: 50px;
+}
+.card-text{
+  color: white;
+}
+.card1{
+  width:50%;
+  height:50%;
+}
+
+.container1{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:15%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.card2{
+  width:50%;
+  height:50%;
+}
+
+.container2{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:120%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.card3{
+  width:50%;
+  height:50%;
+}
+
+.container3{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:230%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.card4{
+  width:50%;
+  height:50%;
+}
+
+.container4{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:340%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.card5{
+  width:50%;
+  height:50%;
+}
+
+.container5{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:450%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.card6{
+  width:50%;
+  height:50%;
+}
+
+.container6{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:560%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+/* ---------------------------------For Phone---------------------------------------- */
+@media(max-width:800px){
+  body{
+    background-color: #537188;
+  }
+  .b1{
+    position: absolute;
+
+    top:50%;
+    left:47%
+  }
+  .heading{
+    z-index: 8;
+    position: absolute;
+    width:100%;
+    background-color: #27374D;
+    position: absolute;
+    top:2%;
+    left:0%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+  .card-title1{
+    color: white;
+    font-size: 30px;
+  }
+  .card-text{
+    color: white;
+  }
+  .card1{
+    width:50%;
+    height:50%;
+  }
+
+  .container1{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+  .card2{
+    width:50%;
+    height:50%;
+  }
+
+  .container2{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:55%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+  .card3{
+    width:50%;
+    height:50%;
+  }
+
+  .container3{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:95%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+  .card4{
+    width:50%;
+    height:50%;
+  }
+
+  .container4{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:135%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+  .card5{
+    width:50%;
+    height:50%;
+  }
+
+  .container5{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:165%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+  .card6{
+    width:50%;
+    height:50%;
+  }
+
+  .container6{
+    right:10%;
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:200%;
+    left: 5%;
+    display: flex;
+    gap:3%;
+
+  }
+
+}

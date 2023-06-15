@@ -1,0 +1,210 @@
+
+
+body {
+background-color: #9BA4B5;
+}
+.result{
+  color: white;
+  position: absolute;
+  z-index: 11;
+  top: 30%;
+  left: 15%;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+  font-size: 70px;
+}
+.heading1{
+  color: black;
+  position: absolute;
+  z-index: 11;
+  top: 30%;
+  left: 30%;
+  background-color:  white;
+  font-family: 'Merienda', cursive;
+  font-size: 90px;
+}
+.heading2{
+  color: black;
+  position: absolute;
+  z-index: 11;
+  top: 45%;
+  left: 38%;
+  background-color:  white;
+  font-size: 40px;
+}
+
+.navbar{
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 20px;
+position: absolute;
+z-index: 10;
+
+}
+.carousel slide{
+position:absolute;
+width: auto;
+z-index: 9;
+}
+
+.card0{
+  width:58%;
+  height:58%;
+}
+
+.container0{
+  right:10%;
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:90%;
+  left: 5%;
+  display: flex;
+  gap:3%;
+
+}
+.container{
+  padding: 0;
+  border:0;
+  position: absolute;
+  top:120%;
+  left:20%;
+  display: flex;
+  gap: 15%;
+}
+
+.card-img-top{
+  background-color: #9BA4B5;
+  border: 0%;
+}
+.card-body{
+  background-color: #9BA4B5;
+}
+.contactme{
+  position: absolute;
+  top:190%;
+  left:15%;
+
+  padding-bottom: 50px;
+
+}
+.btn{
+  background-color: #394867;
+  border: 0;
+}
+.b1{
+  position: absolute;
+
+  top:50%;
+  left:47%
+}
+
+}
+.card-title1{
+  font-size:40px;
+}
+/* ---------------------------------------For Phones------------------------------------------ */
+@media(max-width:800px){
+  .result{
+    color: white;
+    position: absolute;
+    z-index: 11;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+  }
+  .heading1{
+    color: black;
+    position: absolute;
+    z-index: 11;
+    top: 10%;
+    left: 30%;
+    background-color:  white;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+  }
+  .heading2{
+    color: black;
+    position: absolute;
+    z-index: 11;
+    top: 17%;
+    left: 37%;
+    background-color:  white;
+    font-size: 20px;
+  }
+
+  .navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  position: absolute;
+  z-index: 10;
+
+  }
+  .carousel slide{
+  position:absolute;
+  width: auto;
+  z-index: 9;
+  }
+
+  .card0{
+    width:60%;
+    height:58%;
+  }
+
+  .container0{
+    right:5%;
+    padding: 0;
+
+    position: absolute;
+    top:30%;
+    left: 5%;
+    display: flex;
+    gap:1%;
+
+  }
+  .container{
+    padding: 0;
+    border:0;
+    position: absolute;
+    top:75%;
+    left:20%;
+    display: block;
+    gap: 15%;
+  }
+
+  .card-img-top{
+    background-color: #9BA4B5;
+    border: 0%;
+  }
+  .card-body{
+    background-color: #9BA4B5;
+  }
+  .contactme{
+    position: absolute;
+    top:270%;
+    left:15%;
+
+    padding-bottom: 50px;
+
+  }
+  .btn{
+    background-color: #394867;
+    border: 0;
+  }
+  .b1{
+    position: absolute;
+
+    top:50%;
+    left:47%
+  }
+
+  .card-title1{
+    font-size: 30px;
+  }
+  .card-text{
+    font-size: 13px;
+  }
+}
