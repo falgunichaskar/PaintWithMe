@@ -119,11 +119,11 @@ z-index: 9;
     color: black;
     position: absolute;
     z-index: 11;
-    top: 10%;
+    top: 7%;
     left: 30%;
     background-color:  white;
     font-family: 'Merienda', cursive;
-    font-size: 40px;
+    font-size: 20px;
   }
   .heading2{
     color: black;
@@ -169,8 +169,8 @@ z-index: 9;
     padding: 0;
     border:0;
     position: absolute;
-    top:75%;
-    left:20%;
+    top:90%;
+    left:15%;
     display: block;
     gap: 15%;
   }
@@ -184,7 +184,7 @@ z-index: 9;
   }
   .contactme{
     position: absolute;
-    top:270%;
+    top:300%;
     left:15%;
 
     padding-bottom: 50px;
